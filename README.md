@@ -20,7 +20,7 @@ It combines **Safe Exam Browser–style lockdown features** with **modern AI ass
 ## 📦 Download
 
 ## Downloads
-- [Windows build](release/YourApp.exe)
+[**⬇️ Download Sigma Secure Browser**](../../releases/latest)  
 
 *(Available as a Windows `.exe` build – no setup hassle, ready to run.)*
 
