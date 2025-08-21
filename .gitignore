@@ -1,0 +1,60 @@
+# ==========================
+# Sigma Secure Browser (Private)
+# Ignore build artifacts, executables, and dev junk
+# ==========================
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / Release
+dist/
+release/
+release-*/
+out/
+build/
+*.exe
+*.dll
+*.msi
+*.app
+*.dmg
+*.pkg
+
+# Electron Builder / Cache
+*.asar
+*.pdb
+*.nupkg
+*.blockmap
+*.snap
+*.AppImage
+app/dist/
+app/out/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests / Coverage
+coverage/
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+
+# Env / Config secrets
+.env
+.env.*
+config/local.json
+
+# Logs
+logs/
+*.log
